@@ -1,0 +1,13 @@
+[project]
+name = "fl-ids-web"
+version = "0.1.0"
+description = "Détection d'intrusions applicatives par apprentissage fédéré (prototype de TP, IFRI)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scikit-learn>=1.3", "matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["fl_ids"]
